@@ -1,0 +1,42 @@
+[
+  {
+    "id": "1",
+    "subCategoryName": "Mobile Phones",
+    "category_id": "1"
+  },
+  {
+    "id": "2",
+    "subCategoryName": "Laptops",
+    "category_id": "1"
+  },
+  {
+    "id": "3",
+    "subCategoryName": "Televisions",
+    "category_id": "1"
+  },
+  {
+    "id": "4",
+    "subCategoryName": "Headphones",
+    "category_id": "1"
+  },
+  {
+    "id": "5",
+    "subCategoryName": "Men's Clothing",
+    "category_id": "2"
+  },
+  {
+    "id": "6",
+    "subCategoryName": "Women's Clothing",
+    "category_id": "2"
+  },
+  {
+    "id": "7",
+    "subCategoryName": "Kids' Clothing",
+    "category_id": "2"
+  },
+  {
+    "id": "8",
+    "subCategoryName": "Sportswear",
+    "category_id": "2"
+  }
+]

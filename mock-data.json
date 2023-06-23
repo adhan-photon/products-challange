@@ -1,0 +1,256 @@
+{
+  "categories": [
+    {
+      "id": "cat1",
+      "categoryName": "Electronics",
+      "subcategories": [
+        {
+          "id": "subcat1",
+          "subCategoryName": "Mobile Phones",
+          "products": [
+            {
+              "id": "prod1",
+              "productName": "iPhone",
+              "price": 999.99,
+              "description": "The latest iPhone model with advanced features.",
+              "availability": true,
+              "stock": 5
+            },
+            {
+              "id": "prod2",
+              "productName": "Samsung Galaxy",
+              "price": 899.99,
+              "description": "High-quality Android smartphone with a stunning display.",
+              "availability": true,
+              "stock": 5
+            },
+            {
+              "id": "prod3",
+              "productName": "Google Pixel",
+              "price": 799.99,
+              "description": "Powerful smartphone with a pure Android experience.",
+              "availability": false,
+              "stock": 0
+            }
+          ]
+        },
+        {
+          "id": "subcat2",
+          "subCategoryName": "Laptops",
+          "products": [
+            {
+              "id": "prod1",
+              "productName": "MacBook Pro",
+              "price": 1999.99,
+              "description": "The ultimate laptop for professionals and creatives.",
+              "availability": true,
+              "stock": 5
+            },
+            {
+              "id": "prod2",
+              "productName": "Dell XPS",
+              "price": 1599.99,
+              "description": "A powerful and stylish laptop with a stunning display.",
+              "availability": true,
+              "stock": 5
+            },
+            {
+              "id": "prod3",
+              "productName": "HP Spectre",
+              "price": 1399.99,
+              "description": "Sleek and lightweight laptop for productivity on the go.",
+              "availability": true,
+              "stock": 5
+            }
+          ]
+        },
+        {
+          "id": "subcat3",
+          "subCategoryName": "Televisions",
+          "products": [
+            {
+              "id": "prod1",
+              "productName": "Samsung QLED TV",
+              "price": 1499.99,
+              "description": "Immersive entertainment experience with vivid colors.",
+              "availability": true,
+              "stock": 5
+            },
+            {
+              "id": "prod2",
+              "productName": "LG OLED TV",
+              "price": 1799.99,
+              "description": "Stunning picture quality with deep blacks and vibrant colors.",
+              "availability": true,
+              "stock": 5
+            },
+            {
+              "id": "prod3",
+              "productName": "Sony 4K TV",
+              "price": 1299.99,
+              "description": "Ultra HD resolution for crystal-clear visuals.",
+              "availability": false,
+              "stock": 0
+            }
+          ]
+        },
+        {
+          "id": "subcat4",
+          "subCategoryName": "Headphones",
+          "products": [
+            {
+              "id": "prod1",
+              "productName": "Bose Noise-Canceling Headphones",
+              "price": 299.99,
+              "description": "Immersive audio experience with active noise cancellation.",
+              "availability": true,
+              "stock": 5
+            },
+            {
+              "id": "prod2",
+              "productName": "Sony Wireless Earbuds",
+              "price": 199.99,
+              "description": "True wireless earbuds with high-quality sound.",
+              "availability": true,
+              "stock": 5
+            },
+            {
+              "id": "prod3",
+              "productName": "Razer",
+              "price": 399.99,
+              "description": "Razer.",
+              "availability": true,
+              "stock": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cat2",
+      "categoryName": "Clothing",
+      "subcategories": [
+        {
+          "id": "subcat1",
+          "subCategoryName": "Men's Clothing",
+          "products": [
+            {
+              "id": "prod1",
+              "productName": "T-shirts",
+              "price": 19.99,
+              "description": "Comfortable and stylish t-shirts for men.",
+              "availability": true,
+              "stock": 5
+            },
+            {
+              "id": "prod2",
+              "productName": "Jeans",
+              "price": 49.99,
+              "description": "High-quality jeans with a perfect fit.",
+              "availability": true,
+              "stock": 5
+            },
+            {
+              "id": "prod3",
+              "productName": "Shirts",
+              "price": 29.99,
+              "description": "Stylish shirts for any occasion.",
+              "availability": false,
+              "stock": 0
+            }
+          ]
+        },
+        {
+          "id": "subcat2",
+          "subCategoryName": "Women's Clothing",
+          "products": [
+            {
+              "id": "prod1",
+              "productName": "Dresses",
+              "price": 69.99,
+              "description": "Elegant and fashionable dresses for women.",
+              "availability": true,
+              "stock": 5
+            },
+            {
+              "id": "prod2",
+              "productName": "Tops",
+              "price": 39.99,
+              "description": "Trendy and versatile tops for women.",
+              "availability": true,
+              "stock": 5
+            },
+            {
+              "id": "prod3",
+              "productName": "Pants",
+              "price": 59.99,
+              "description": "Stylish and comfortable pants for women.",
+              "availability": true,
+              "stock": 5
+            }
+          ]
+        },
+        {
+          "id": "subcat3",
+          "subCategoryName": "Kids' Clothing",
+          "products": [
+            {
+              "id": "prod1",
+              "productName": "Kids' T-shirts",
+              "price": 14.99,
+              "description": "Adorable and comfortable t-shirts for kids.",
+              "availability": true,
+              "stock": 5
+            },
+            {
+              "id": "prod2",
+              "productName": "Kids' Jeans",
+              "price": 29.99,
+              "description": "Stylish and durable jeans for kids.",
+              "availability": true,
+              "stock": 5
+            },
+            {
+              "id": "prod3",
+              "productName": "Kids' Dresses",
+              "price": 39.99,
+              "description": "Cute and fashionable dresses for kids.",
+              "availability": false,
+              "stock": 0
+            }
+          ]
+        },
+        {
+          "id": "subcat4",
+          "subCategoryName": "Sportswear",
+          "products": [
+            {
+              "id": "prod1",
+              "productName": "Sports T-shirts",
+              "price": 24.99,
+              "description": "Breathable and moisture-wicking t-shirts for sports activities.",
+              "availability": true,
+              "stock": 5
+            },
+            {
+              "id": "prod2",
+              "productName": "Sports Leggings",
+              "price": 34.99,
+              "description": "Flexible and comfortable leggings for sports.",
+              "availability": true,
+              "stock": 5
+            },
+            {
+              "id": "prod3",
+              "productName": "Sports",
+              "price": 34.99,
+              "description": "sports.",
+              "availability": true,
+              "stock": 5
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
