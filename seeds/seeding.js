@@ -34,7 +34,7 @@ connection.query(
   [
     dataSubCategories.map((subCategory) => [
       subCategory.subCategoryName,
-      subCategory.categories_id,
+      subCategory.category_id,
     ]),
   ],
   (error, res) => {
