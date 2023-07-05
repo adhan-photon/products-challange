@@ -4,11 +4,11 @@ const SubcategoryController = require("../controllers/subcategoryController");
 
 router.get("/list", SubcategoryController.getAllSubcategory);
 router.get(
-  "/subcategory/:subcategoriesId",
+  "/subcategory/:subcategoryId",
   SubcategoryController.getSubcategoryBySubcategoryId
 );
 router.get(
-  "/subcategory/:subcategoriesId/details",
+  "/subcategory/:subcategoryId/details",
   SubcategoryController.getListSubcategoryAndDetailProduct
 );
 module.exports = router;
