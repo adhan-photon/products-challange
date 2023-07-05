@@ -1,7 +1,7 @@
 const request = require("supertest");
 const express = require("express");
 const router = require("../routes");
-const productContoller = require("../controllers/productContoller");
+
 describe("Products test", () => {
   const app = express();
   app.use("/", router);
