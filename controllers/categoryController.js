@@ -14,7 +14,11 @@ class CategoryController {
   static getCategoryByCategoryId(req, res) {
     Category.getCategoryByCategoryId(+req.params.categoryId)
       .then((data) => {
-        res.json(data);
+        if (!data.length) {
+          res.status(404).json("Whoops!");
+        } else {
+          res.json(data);
+        }
       })
       .catch((err) => {
         res.send(err);

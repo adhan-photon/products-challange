@@ -37,8 +37,7 @@ const createTable = async () => {
         if (err) {
           reject(err);
         } else {
-          console.log(res);
-          console.log("Success creating table Categories");
+          console.log(res, "Success creating table Categories");
           resolve();
         }
       });
@@ -50,8 +49,7 @@ const createTable = async () => {
         if (err) {
           reject(err);
         } else {
-          console.log(res);
-          console.log("Success creating table Subcategories");
+          console.log(res, "Success creating table Subcategories");
           resolve();
         }
       });
@@ -63,8 +61,7 @@ const createTable = async () => {
         if (err) {
           reject(err);
         } else {
-          console.log(res);
-          console.log("Success creating table Products");
+          console.log(res, "Success creating table Products");
           resolve();
         }
       });

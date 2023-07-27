@@ -14,7 +14,11 @@ class SubcategoriesController {
   static getSubcategoryBySubcategoryId(req, res) {
     Subcategories.getSubcategoryBySubcategoryId(+req.params.subcategoryId)
       .then((data) => {
-        res.json(data);
+        if (!data.length) {
+          res.status(404).json("Whoops!");
+        } else {
+          res.json(data);
+        }
       })
       .catch((err) => {
         res.send(err);
@@ -24,7 +28,6 @@ class SubcategoriesController {
   static getListSubcategoryAndDetailProduct(req, res) {
     Subcategories.getAllSubcategory()
       .then((subcategories) => {
-        console.log(subcategories, "subcategories");
         const subcategoryId = +req.params.subcategoryId;
         const subcategory = subcategories.find(
           (sub) => sub.id === subcategoryId
