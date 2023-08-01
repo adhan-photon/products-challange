@@ -1,5 +1,4 @@
 const connection = require("../config/connection");
-
 class Category {
   static getAllCategory() {
     return new Promise((resolve, reject) => {

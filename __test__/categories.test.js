@@ -8,7 +8,7 @@ jest.mock("../models/category", () => ({
   getCategoryByCategoryId: jest.fn(),
 }));
 
-describe("Category test", () => {
+describe("Category Controller test", () => {
   const app = express();
   app.use("/", router);
 

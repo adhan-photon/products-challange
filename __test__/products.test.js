@@ -1,5 +1,4 @@
 const Product = require("../models/product");
-const ProductController = require("../controllers/productContoller");
 const request = require("supertest");
 const express = require("express");
 const router = require("../routes");
@@ -9,13 +8,14 @@ jest.mock("../models/product", () => ({
   getDetailProduct: jest.fn(),
 }));
 
-describe("Product test", () => {
+describe("Product controller test", () => {
   const app = express();
   app.use("/", router);
 
   beforeEach(() => {
     jest.clearAllMocks();
   });
+
   test("should return all products", async () => {
     const mockProducts = [
       {

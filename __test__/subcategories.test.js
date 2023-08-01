@@ -8,7 +8,7 @@ jest.mock("../models/category", () => ({
   getSubcategoryBySubcategoryId: jest.fn(),
 }));
 
-describe("Subcategory test", () => {
+describe("Subcategory controller test", () => {
   const app = express();
   app.use("/", router);
 
@@ -149,9 +149,14 @@ describe("Subcategory test", () => {
   });
 
   test("should return 404 for invalid subcategoryId", async () => {
+    const mockSubcategory = [];
+    jest
+      .spyOn(Subcategory, "getSubcategoryBySubcategoryId")
+      .mockResolvedValue(mockSubcategory);
+
     const invalidSubcategoryId = 999;
     const response = await request(app).get(
-      `/subcategory/${invalidSubcategoryId}`
+      `/subcategories/subcategory/${invalidSubcategoryId}`
     );
     expect(response.status).toBe(404);
   });
